@@ -1,4 +1,3 @@
-# OCP: Terbuka untuk ekstensi, tertutup untuk modifikasi
 from abc import ABC, abstractmethod
 
 class Hewan(ABC):
