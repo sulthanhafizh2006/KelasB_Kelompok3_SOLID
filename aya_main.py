@@ -13,6 +13,7 @@ class Singa(HewanDarat):
     """Polymorphism: mengoverride bersuara() sesuai karakteristik singa."""
 
     def __init__(self, nama: str, umur: int):
+        
         super().__init__(nama, jenis="Singa", umur=umur, kecepatan_lari=80.0)
 
     def bersuara(self):
