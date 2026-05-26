@@ -9,11 +9,11 @@ Proyek tugas kelompok simulasi kebun binatang menggunakan konsep **Object-Orient
 | Bagian | File | Tanggung Jawab | Anggota |
 |--------|------|----------------|---------|
 | 1 | `bagian1_hewan.py` | Abstract Base Class `Hewan` | Sulthann Hafizh Putra Agung |
-| 2 | `bagian2_kategori_hewan.py` | Subclass `HewanDarat` & `HewanTerbang` | |
-| 3 | `bagian3_jenis_hewan.py` | Subclass konkret: Singa, Gajah, Elang, Kakatua |  |
-| 4 | `bagian4_kandang.py` | Class `Kandang` |  |
-| 5 | `bagian5_kebun_binatang.py` | Class `KebunBinatang` | |
-| 6 | `bagian6_main.py` | Main program / Runner | |
+| 2 | `bagian2_kategori_hewan.py` | Subclass `HewanDarat` & `HewanTerbang` | Zahra Faizza Kuncoroningrum |
+| 3 | `bagian3_jenis_hewan.py` | Subclass konkret: Singa, Gajah, Elang, Kakatua | ⁠Adibah Ruhil |
+| 4 | `bagian4_kandang.py` | Class `Kandang` | Aksya Nayla |
+| 5 | `bagian5_kebun_binatang.py` | Class `KebunBinatang` | Allicya Nailah Fairuza |
+| 6 | `bagian6_main.py` | Main program / Runner | Faris Rafiuddin Hannan |
 
 ---
 
