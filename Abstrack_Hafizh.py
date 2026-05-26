@@ -1,6 +1,7 @@
 # ============================================================
 # BAGIAN 1 – Abstract Base Class: Hewan
-# Anggota  : [Nama Anggota 1]
+# Anggota  : [NSulthann Hafizh Putra Agung]
+# NIM      : [K3525013]
 # Prinsip  : Abstraction, Encapsulation
 # ============================================================
 
