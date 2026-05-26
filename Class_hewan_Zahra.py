@@ -1,6 +1,6 @@
 # ============================================================
 # BAGIAN 6 – Main Program (Runner)
-# Anggota  : [Nama Anggota 6]
+# Anggota  : [Zahra Faizza Kuncoroningrum]
 # Fungsi   : Menggabungkan semua bagian & menjalankan program
 # ============================================================
 
