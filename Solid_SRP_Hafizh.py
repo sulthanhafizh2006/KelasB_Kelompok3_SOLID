@@ -1,7 +1,7 @@
 # Single Responsibility Principle (SRP)
 # Analisis oleh:
-# Nama : [Nama Anggota 1]
-# NIM  : [NIM Anggota 1]
+# Nama : [Sulthan Hafizh Putra Agung]
+# NIM  : [K3525013]
 
 # Analisis Kesalahan
 # 1. Class Hewan menanggung terlalu banyak tanggung jawab
