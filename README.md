@@ -186,7 +186,7 @@ cd solid-kebunbinatang
 
 # 2. Buat branch baru sesuai dengan bagian tugas masing-masing
 git checkout -b fitur/srp         # Untuk Anggota 1
-git checkout -b fitur/ocp         # Untuk Anggota 2 (Zahra)
+git checkout -b fitur/ocp         # Untuk Anggota 2 
 git checkout -b fitur/lsp         # Untuk Anggota 3
 git checkout -b fitur/isp         # Untuk Anggota 4
 git checkout -b fitur/dip         # Untuk Anggota 5
