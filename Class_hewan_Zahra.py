@@ -1,6 +1,7 @@
 # ============================================================
 # BAGIAN 6 – Main Program (Runner)
 # Anggota  : [Zahra Faizza Kuncoroningrum]
+# NIM      : K3525017
 # Fungsi   : Menggabungkan semua bagian & menjalankan program
 # ============================================================
 
