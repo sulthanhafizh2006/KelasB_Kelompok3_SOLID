@@ -12,7 +12,7 @@ class Kandang:
     SRP: satu kelas, satu tanggung jawab.
     """
 
-    def _init_(self, nama_kandang: str, kapasitas: int):
+    def __init__(self, nama_kandang: str, kapasitas: int):  # ✅ Fix Bug 1
         self.__nama_kandang = nama_kandang
         self.__kapasitas = kapasitas
         self.__hewan_list: list[Hewan] = []
@@ -22,13 +22,14 @@ class Kandang:
     @property
     def nama_kandang(self) -> str:
         return self.__nama_kandang
-@property
+
+    @property                          # ✅ Fix Bug 2: tambah indent
     def kapasitas(self) -> int:
         return self.__kapasitas
 
     @property
     def hewan_list(self) -> list:
-        return list(self.__hewan_list)  # return salinan agar list asli aman
+        return list(self.__hewan_list)
 
     @property
     def jumlah_hewan(self) -> int:
@@ -36,9 +37,8 @@ class Kandang:
 
     # --- Method ---
     def tambah_hewan(self, hewan: Hewan) -> bool:
-        """Menambahkan hewan ke kandang jika kapasitas masih tersedia."""
-        if len(self._hewan_list) >= self._kapasitas:
-            print(f"  ⚠️  Kandang '{self._nama_kandang}' sudah penuh! Kapasitas: {self._kapasitas}")
+        if len(self.__hewan_list) >= self.__kapasitas:  # ✅ Fix Bug 3
+            print(f"  ⚠️  Kandang '{self.__nama_kandang}' sudah penuh! Kapasitas: {self.__kapasitas}")
             return False
         self.__hewan_list.append(hewan)
         self.__sudah_bersih = False
@@ -46,7 +46,6 @@ class Kandang:
         return True
 
     def keluarkan_hewan(self, nama_hewan: str) -> bool:
-        """Mengeluarkan hewan dari kandang berdasarkan nama."""
         for hewan in self.__hewan_list:
             if hewan.nama.lower() == nama_hewan.lower():
                 self.__hewan_list.remove(hewan)
@@ -56,12 +55,10 @@ class Kandang:
         return False
 
     def bersihkan_kandang(self):
-        """Membersihkan kandang (SRP: tugas kandang, bukan kebun binatang)."""
         self.__sudah_bersih = True
         print(f"  🧹 Kandang '{self.__nama_kandang}' telah dibersihkan.")
 
     def status_kandang(self):
-        """Menampilkan status kandang saat ini."""
         kondisi = "Bersih ✨" if self.__sudah_bersih else "Kotor 🪣"
         print(f"\n  📦 Kandang : {self.__nama_kandang}")
         print(f"     Isi     : {self.jumlah_hewan}/{self.__kapasitas} hewan")
@@ -71,5 +68,5 @@ class Kandang:
             for h in self.__hewan_list:
                 print(f"       - {h}")
 
-    def _str_(self):
-        return f"Kandang '{self._nama_kandang}' [{self.jumlah_hewan}/{self._kapasitas}]"
+    def __str__(self):                              # ✅ Fix Bug 4
+        return f"Kandang '{self.__nama_kandang}' [{self.jumlah_hewan}/{self.__kapasitas}]"
