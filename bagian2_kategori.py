@@ -1,7 +1,7 @@
 # ============================================================
 # BAGIAN 2 – Subclass Intermediate: HewanDarat & HewanTerbang
 # Anggota  : [Aksya Nayla Fitriana]
-# NIM      : [K3525047]
+# BIM      : [K3525047]
 # Prinsip  : Inheritance, Abstraction
 # ============================================================
 
